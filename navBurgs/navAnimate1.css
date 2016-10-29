@@ -1,10 +1,5 @@
-
-	
-
-
- /*========================= Search Glass to X =========================
-
- 	.navBurger{
+/*========================= Search Glass to X - Spin -- USE JS-0 =========================*/
+ 	/*.navBurger{
 		width: 35px;
 		height: 35px;
 		border: #666 solid 2px;
@@ -25,17 +20,7 @@
 		transition:			0.4s;
 		background: #666;
 		transform:		rotate(45deg);
-	}
-	.navBurger span.active:nth-child(1){
-		height:2px;
-		width:25px;
-		top:15px;
-		left:1px;
-		background: #FFF;
 		transition: all 0.4s ease-in-out;
-		transition:	0.4s;
-		transform: rotate(315deg);
-
 	}
 	.navBurger span:nth-child(2) {
 		height: 17px;
@@ -43,34 +28,164 @@
 		top: 2px;
 		background: #FFF;
 		border-radius: 50%;
-		transition: 0.4s;
+		transition: all 0.4s ease-in-out;
 		transform: rotate(45deg);
 		left: -1px;
 	}
+	.navBurger span.active:nth-child(1),
 	.navBurger span.active:nth-child(2){
 		height:2px;
 		width:25px;
-		background: #666;
 		border-radius:0;
 		top:15px;
-		left: 1px;
+		left: 0px;
+		background: #666;
+		transform: rotate(315deg);
+	}
+	.navBurger span.active:nth-child(2){
 		transform: rotate(405deg);
-		transition: all 0.4s ease-in-out;
 	}
 	.navBurger span:nth-child(3) {
 		display: none;
 	}*/
 
+/*========================= Search Glass to X - TransForm -- USE JS-0 =========================*/
+ 	/*.navBurger{
+		width: 35px;
+		height: 35px;
+		border: #666 solid 2px;
+		background: none;
+		position: relative;
+		margin:25px auto;
+	}
+	.navBurger span {
+		height: 3px;
+		width: 15px;
+		top: 22px;
+		position: absolute;
+		margin: 0 3px;
+		border: 2px solid #666;
+		left: 12px;
+	}
+	.navBurger span:nth-child(1){
+		transition:	0.4s;
+		background: #666;
+		transform:	rotate(45deg);
+		transition: all 0.4s ease-in-out;
+	}
+	.navBurger span:nth-child(2) {
+		height: 17px;
+		width: 17px;
+		top: 2px;
+		background: #FFF;
+		border-radius: 50%;
+		transition: all 0.4s ease-in-out;
+		transform: rotate(45deg);
+		left: -1px;
+	}
+	.navBurger span.active:nth-child(2),
+	.navBurger span.active:nth-child(1){
+		height:2px;
+		width:25px;
+		border-radius:0;
+		top:15px;
+		left: 0px;
+	}
+	.navBurger span.active:nth-child(2){
+		background: #666;
+		transform: rotate(-45deg);
+	}
+	.navBurger span:nth-child(3) {
+		display: none;
+	}*/
 
-/* ========================= Three patty bounce to X =========================
-	
+/*========================= Search Glass to X - Eplode+Twist -- USE JS-0 =========================*/
 
-	@keyframes firstPattyDown{
+ 	/*.navBurger{
+		width: 35px;
+		height: 35px;
+		border: #666 solid 2px;
+		background: none;
+		position: relative;
+		margin:25px auto;
+	}
+	.navBurger span {
+		position: absolute;
+	}
+	.navBurger span.active{
+		border-color: #FFF;
+	}
+	.navBurger span:nth-child(1){
+	    background: #666 none repeat scroll 0 0;
+	    height: 5px;
+	    left: 16px;
+	    top: 21px;
+	    transform: rotate(45deg);
+	    transition: all 0.4s ease-in-out 0.2s;
+	    width: 15px;
+	}
+	.navBurger span:nth-child(2) {
+		height: 17px;
+		width: 17px;
+		top: 2px;
+		left: 2px;
+		background: #FFF;
+		border: 2px solid #666;
+		border-radius: 50%;
+		transition: all 0.4s ease-in-out 0.2s;
+		transform: rotate(45deg);
+		z-index: -1;
+		}
+	.navBurger span:nth-child(3){
+		visibility: hidden;
+		height: 5px;
+		width: 25px;
+		top: 15px;
+		left: 2px;
+		background: #FFF;
+		transform: rotate(45deg);
+		transition: all 0.2s ease-in-out;
+	}
+	.navBurger span.active:nth-child(1){
+		transition: all 0.4s ease-in-out;
+		height:5px;
+		width:25px;
+		top:15px;
+		left: 5px;
+		border-radius:0;
+		background: #FFF;
+	}
+	.navBurger span.active:nth-child(2){
+		border-radius: 0;
+		top: -2px;
+		left: -2px;
+		height: 35px;
+		width: 35px;
+		transform: rotate(0deg);
+		transition: all 0.4s ease-in-out;
+		background: #666;
+	}
+	.navBurger span.active:nth-child(3){
+		transition: all 0.4s ease-in-out 0.4s;
+	    display: block;
+		height:5px;
+		width:25px;
+		top:15px;
+		left: 5px;
+		border-radius:0;
+		background: #FFF;
+    	transform: rotate(135deg);
+    	visibility: visible;
+	}*/
+
+/*========================= Three patty bounce to X -- USE JS-1 =========================*/
+
+	/*@keyframes firstPattyDown{
 
 		0%		{	top:5px;  transform:rotate(0deg); }
 		50%		{	top:26px; transform:rotate(0deg); }
 		75%		{	top:20px; transform:rotate(0deg); }
-		100%	{	top:15px; transform:rotate(45deg);}
+		100%	{	top:13px; transform:rotate(45deg);}
 
 	}
 	@keyframes secondPattyDown{
@@ -78,7 +193,7 @@
 		0%		{	top:13px;  transform:rotate(0deg); }
 		50%		{	top:26px; transform:rotate(0deg); }
 		75%		{	top:20px; transform:rotate(0deg); }
-		100%	{	top:15px; transform:rotate(-45deg);}
+		100%	{	top:13px; transform:rotate(-45deg);}
 
 	}
 	@keyframes thirdPattyDown{
@@ -86,7 +201,7 @@
 		0%		{	top:21px;  transform:rotate(0deg); }
 		50%		{	top:26px; transform:rotate(0deg); }
 		75%		{	top:20px; transform:rotate(0deg); }
-		100%	{	top:15px; transform:rotate(-45deg);}
+		100%	{	top:13px; transform:rotate(-45deg);}
 
 	}
 	@keyframes firstPattyUp{
@@ -142,19 +257,165 @@
 	.navBurger span.active:nth-child(1){
 		animation-name: firstPattyDown;
 		animation-duration: 0.8s;
-		top:15px;
+		top:13px;
 		transform: rotate(45deg);
 	}
 	.navBurger span.active:nth-child(2){
 		animation-name: secondPattyDown;
 		animation-duration: 0.8s;
-		top:15px;
+		top:13px;
 		transform: rotate(-45deg);
 	}
 	.navBurger span.active:nth-child(3){
 		animation-name: thirdPattyDown;
 		animation-duration: 0.8s;
-		top:15px;
+		top:13px;
 		transform: rotate(-45deg);
+	}*/
+
+/*========================= Arrow up to Arrow down, simple spin -- USE JS-2 =========================*/
+	/*@keyframes arrowSpin0{
+		0%{ transform: rotate(0deg); }
+		100%{ transform: rotate(180deg); }
 	}
-*/
+	@keyframes arrowSpin1{
+		0%{ transform: rotate(180deg); }
+		100%{ transform: rotate(360deg); }
+	}
+	.navBurger{
+		width: 35px;
+		height: 35px;
+		border: none;
+		background: none;
+		position: relative;
+		margin:25px auto;
+		transform: rotate(0deg);
+		animation-name: arrowSpin1;
+		animation-duration: 0.4s;
+	}
+	.navBurger.active{
+		transform: rotate(180deg);
+		animation-name: arrowSpin0;
+		animation-duration: 0.4s;
+	}
+	.navBurger span {
+		position: absolute;
+		margin: 0;
+		background: #666;
+		border: none;
+		left: 0px;
+	}
+	.navBurger span:nth-child(1){
+		height: 26px;
+		width: 3px;
+		top: 5px;
+		left: 16px;
+	}
+	.navBurger span:nth-child(2){
+	    height: 16px;
+	    left: 11px;
+	    top: 2px;
+	    transform: rotate(45deg);
+	    width: 4px;
+	}
+	.navBurger span:nth-child(3){
+	    height: 16px;
+	    left: 20px;
+	    top: 2px;
+	    transform: rotate(-45deg);
+	    width: 4px;	
+	}*/
+
+/*========================= Profile -- USE JS-1 =========================*/
+
+	/*@keyframes topCircle0{
+		0%		{ top: 15px; left: 12.5px; transform: rotate(0deg); border-radius: 50%; height: 10px; width: 10px; }
+		50%		{ top: 33px; left: 5px; transform: rotate(0deg); border-radius: 0px; height: 3px; width: 25px; }
+		100%	{ top: 17px; transform: rotate(-45deg); }
+	}
+	@keyframes topCircle1{
+		0%		{ top: 17px; left: 5px; transform: rotate(-45deg); border-radius: 0px; height: 3px; width: 25px; }
+		50%		{ top: 33px; left: 5px; transform: rotate(0deg); border-radius: 0px; height: 3px; width: 25px; }
+		100%	{ top: 15px; left: 12.5px; transform: rotate(0deg); border-radius: 50%; height: 10px; width: 10px; }		
+	}
+	@keyframes bottomCircle0{
+		0%		{ top: 25px; transform: rotate(0deg); border-top-left-radius: 20px; border-top-right-radius: 20px; height: 10px; width: 25px; }
+		50%		{ top: 33px; transform: rotate(0deg); border-radius: 0px; height: 3px; width: 25px; }
+		100%	{ top: 17px; transform: rotate(45deg); }		
+	}
+	@keyframes bottomCircle1{
+		0%		{ top: 17px; transform: rotate(45deg); border-radius: 0px; height: 3px; width: 25px; }
+		50%		{ top: 33px; transform: rotate(0deg); border-radius: 0px; height: 3px; width: 25px; }
+		100%	{ top: 25px; transform: rotate(0deg); border-top-left-radius: 20px; border-top-right-radius: 20px; height: 10px; width: 25px; }
+		
+	}
+	.navBurger{
+		width: 35px;
+		height: 35px;
+		border: none;
+		background: none;
+		position: relative;
+		margin:25px auto;
+		transform: rotate(0deg);
+	}
+	.navBurger span {
+		position: absolute;
+		margin: 0;
+		background: #666;
+		border: none;
+		left: 0px;
+		transform: rotate(0deg);
+	}
+	.navBurger span:nth-child(1){
+		height: 10px;
+		width: 10px;
+		top: 15px;
+		left: 12.5px;
+		border-radius: 50%;
+		animation-name: topCircle1;
+		animation-duration: 0.8s;
+	}
+	.navBurger span:nth-child(2){
+	    height: 10px;
+	    width: 25px;
+	    left: 5px;
+	    top: 25px;
+	    border-top-left-radius: 20px;
+	    border-top-right-radius: 20px;
+		animation-name: bottomCircle1;
+		animation-duration: 0.8s;
+	}
+	.navBurger span:nth-child(3){
+	    display: none;
+	}
+	.navBurger span.active:nth-child(1){
+	    border-radius: 0;
+	    height: 3px;
+	    left: 5px;
+	    top: 17px;
+	    transform: rotate(-45deg);
+	    width: 25px;
+	    animation-name: topCircle0;
+	    animation-duration: 0.8s;
+	}
+	.navBurger span.active:nth-child(2){
+	    border-radius: 0;
+	    height: 3px;
+	    top: 17px;
+	    transform: rotate(45deg);
+	    width: 25px;
+		animation-name: bottomCircle0;
+		animation-duration: 0.8s;
+	}*/
+
+/*========================= Prevents animation on page load, managed through js class removal =========================*/
+	.preload * {
+	  -webkit-transition: none !important;
+	  -moz-transition: none !important;
+	  -ms-transition: none !important;
+	  -o-transition: none !important;
+	  -webkit-animation: none !important;
+	  -moz-animation: none !important;
+	  -ms-animation: none !important;
+	  -o-animation: none !important;
+	}
