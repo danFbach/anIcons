@@ -274,6 +274,205 @@
 		transform: rotate(-45deg);
 	}*/
 
+/*========================= Three patty Twist to X -- USE JS-0 =========================*/
+
+	/*@keyframes lineOneDown{
+		0%		{ left: 2px; top: 5px; transform: rotate(0deg); }
+		50%		{ left:11px; top: 5px; width: 22px; transform: rotate(-45deg); }
+		100%	{ left: 3px; top: 13px; width: 24px; transform: rotate(-135deg); }
+	}
+	@keyframes lineTwoDown{
+		0%		{ left: 2px; top: 13px;	transform: rotate(0deg); visibility: visible; }
+		50%		{ left:2px; top: 13px; transform: rotate(-45deg); visibility: visible; }
+		100%	{ visibility: none; }		
+	}
+	@keyframes lineThreeDown{
+		0%		{ left: 2px; top: 21px; transform: rotate(0deg); }
+		50%		{ left:-5px; top: 20px; transform: rotate(-45deg); }
+		100%	{ left: 2px; top: 13px; transform: rotate(-45deg); }		
+	}
+	@keyframes lineOneUp{
+		0%		{ left: 3px; top: 13px; width: 24px; transform: rotate(-135deg); }
+		50%		{ left:11px; top: 5px; width: 22px; transform: rotate(-45deg); }
+		100%	{ left: 2px; top: 5px; transform: rotate(0deg); }
+	}
+	@keyframes lineTwoUp{
+		0%		{ visibility: none; transform: rotate(-45deg); }
+		50%		{ left:2px; top: 13px; transform: rotate(-45deg); visibility: visible; }
+		100%	{ left: 2px; top: 13px;	transform: rotate(0deg); visibility: visible; }
+	}
+	@keyframes lineThreeUp{
+		0%		{ left: 2px; top: 13px; transform: rotate(-45deg); }
+		50%		{ left:-5px; top: 20px; transform: rotate(-45deg); }
+		100%	{ left: 2px; top: 21px; transform: rotate(0deg); }
+	}
+	.navBurger{
+	    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	    border: 2px solid #666666;
+	    height: 29px;
+	    width: 29px;
+	    margin: 25px auto;
+	    position: relative;
+	}
+	.navBurger span {
+	    background: #666666 none repeat scroll 0 0;
+	    border: none;
+	    margin: 0;
+	    position: absolute;
+	    height: 3px;
+	    width: 24px;
+	}
+	.navBurger span:nth-child(1){
+	    left: 2px;
+		top: 5px;
+		transform: rotate(0deg);
+	    animation-name: lineOneUp;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span:nth-child(2){
+	    left: 2px;
+		top: 13px;	
+		transform: rotate(0deg);
+		visibility: visible;
+	    animation-name: lineTwoUp;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span:nth-child(3){
+	    left: 2px;
+		top: 21px;
+		transform: rotate(0deg);
+	    animation-name: lineThreeUp;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span.active:nth-child(1){   
+		left:3px;
+	    top: 13px;
+	    width: 24px;
+	    transform: rotate(-135deg);
+	    animation-name: lineOneDown;
+	    animation-duration: 0.5s;
+
+	}
+	.navBurger span.active:nth-child(2){
+	    left:2px;
+	    top: 13px;
+    	transform: rotate(-45deg);
+	    animation-name: lineTwoDown;
+	    animation-duration: 0.5s;
+	    visibility: none;
+	}
+	.navBurger span.active:nth-child(3){
+	    left: 2px;
+	    top: 13px;
+	    transform: rotate(-45deg);
+	    animation-name: lineThreeDown;
+	    animation-duration: 0.5s;
+	}*/
+
+/*========================= Three patty SideKiss to X -- USE JS-0 =========================*/
+
+	/*@keyframes lineOne0{
+		0%		{ height: 3px; width: 26px; top: 22px; top: 5px; transform: rotate(0deg); }
+		33%		{ height: 3px; top: 7px; left: 9px; transform: rotate(-45deg); }
+		66%		{ height: 2px; left: 17px; top: 13px; transform: rotate(-90deg); }
+		100%	{ height: 3px; left: 3px; top: 13px; transform: rotate(-135deg); }
+	}
+	@keyframes lineOne1{
+		0%		{ height: 3px; left: 3px; top: 13px; transform: rotate(-135deg); }
+		33%		{ height: 2px; left: 17px; top: 13px; transform: rotate(-90deg); }
+		66%		{ height: 3px; top: 7px; left: 9px; transform: rotate(-45deg); }
+		100%	{ height: 3px; width: 26px; top: 22px; top: 5px; transform: rotate(0deg); }
+	}
+	@keyframes lineTwo0{
+		0%		{ height: 3px; left: 2px; transform: rotate(0deg); visibility: visible; }
+		33%		{ height: 2px; left: 2px; transform: rotate(-45deg); visibility: visible; }
+		66%		{ height: 2px; left: -13px; transform: rotate(-90deg); visibility: hidden; }
+		100%	{  }
+	}
+	@keyframes lineTwo1{
+		0%		{ height: 2px; left: -13px; transform: rotate(-90deg); visibility: hidden; }
+		33%		{ height: 2px; left: -13px; transform: rotate(-90deg); visibility: hidden; }
+		66%		{ height: 2px; left: 2px; transform: rotate(-45deg); visibility: visible;}
+		100%	{ height: 3px; left: 2px; transform: rotate(0deg); visibility: visible; }
+	}
+	@keyframes lineThree0{
+		0%		{ height: 3px; top: 21px; transform: rotate(0deg); }
+		33%		{ height: 3px; top: 21px; left: -5px; transform: rotate(-45deg); }
+		66%		{ height: 2px; left: -13px; top: 14px; transform: rotate(-90deg); }
+		100%	{ height: 3px; left: 2px; top: 13px; transform: rotate(-225deg); }
+	}
+	@keyframes lineThree1{
+		0%		{ height: 3px; left: 2px; top: 13px; transform: rotate(-225deg); }
+		33%		{ height: 2px; left: -13px; top: 14px; transform: rotate(-90deg); }
+		66%		{ height: 3px; top: 21px; left: -5px; transform: rotate(-45deg); }
+		100%	{ height: 3px; top: 21px; transform: rotate(0deg); }
+	}
+
+	.navBurger{
+		width: 28px;
+		height:29px;
+		border: #666 solid 2px;
+		background: none;
+		position: relative;
+		margin:25px auto;
+	}
+	.navBurger span {
+		position: absolute;
+		margin: 0;
+		background: #666;
+		border: none;
+		width: 24px;
+		left: 2px;
+	}
+
+	.navBurger span:nth-child(1){
+		height: 3px;
+		top: 5px;
+		transform: rotate(0deg);
+		animation-name: lineOne1;
+		animation-duration: 0.8s;
+	}
+	.navBurger span:nth-child(2){
+		height: 3px;
+		top: 13px;	
+		transform: rotate(0deg);
+		visibility: visible;
+		animation-name: lineTwo1;
+		animation-duration: 0.8s;
+	}
+	.navBurger span:nth-child(3){
+		height: 3px;
+		top: 21px;
+		transform: rotate(0deg);
+		animation-name: lineThree1;
+		animation-duration: 0.8s;	
+	}
+
+	.navBurger span.active:nth-child(1){
+		height: 3px;
+		left: 3px;
+		top: 13px;
+		transform: rotate(-135deg);
+		animation-name: lineOne0;
+		animation-duration: 0.8s;
+	}
+	.navBurger span.active:nth-child(2){
+		left: -13px;
+		height: 2px;
+		visibility: hidden;
+		transform: rotate(-90deg);
+		animation-name: lineTwo0;
+		animation-duration: 0.8s;
+	}
+	.navBurger span.active:nth-child(3){
+		height: 3px;
+		left: 2px;
+		top: 13px;
+		transform: rotate(-225deg);
+		animation-name: lineThree0;
+		animation-duration: 0.8s;	
+	}*/
+
 /*========================= Three patty Smash + Spin -- USE JS-0 =========================*/
 
 	/*@keyframes topBar0{
@@ -412,6 +611,84 @@
 	    top: 2px;
 	    transform: rotate(-45deg);
 	    width: 4px;	
+	}*/
+
+/*========================= Arrow up to Arrow down, transform -- USE JS-0 =========================*/
+	/*@keyframes lTopDown{
+		0%		{ left: 11px; top: 2px; transform: rotate(45deg); }
+		49%		{ left: 16px; top: 5px; transform: rotate( 0deg); }
+		50%		{ left: 16px; top:16px; transform: rotate( 0deg); }
+		100%	{ left: 11px; top:17px; transform: rotate(-45deg); }
+	}
+	@keyframes rTopDown{
+		0%		{ left: 20px; top: 2px; transform: rotate(-45deg); }
+		49%		{ left: 16px; top: 5px; transform: rotate( 0deg); }
+		50%		{ left: 16px; top:16px; transform: rotate( 0deg); }
+		100%	{ left: 21px; top:17px; transform: rotate(45deg); }
+	}
+	@keyframes lbottomUp{
+		0%		{ left: 11px; top:17px; transform: rotate(-45deg); }
+		49%		{ left: 16px; top:16px; transform: rotate( 0deg); }
+		50%		{ left: 16px; top: 5px; transform: rotate( 0deg); }
+		100%	{ left: 11px; top: 2px; transform: rotate(45deg); }
+	}
+	@keyframes rbottomUp{
+		0%		{ left: 21px; top:17px; transform: rotate(45deg); }
+		49%		{ left: 16px; top:16px; transform: rotate( 0deg); }
+		50%		{ left: 16px; top: 5px; transform: rotate( 0deg); }
+		100%	{ left: 20px; top: 2px; transform: rotate(-45deg); }
+	}
+
+	.navBurger{
+		width: 35px;
+		height: 35px;
+		border: none;
+		background: none;
+		position: relative;
+		margin:25px auto;
+		transform: rotate(0deg);
+	}
+	.navBurger span {
+		position: absolute;
+		margin: 0;
+		background: #666;
+		border: none;
+		left: 0px;
+	    width: 3px;
+	    height: 16px;
+	}
+	.navBurger span:nth-child(1){
+		height: 26px;
+		top: 5px;
+		left: 16px;
+	}
+	.navBurger span:nth-child(2){
+	    left: 11px;
+	    top: 2px;
+	    transform: rotate(45deg);
+	    animation-name: lbottomUp;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span:nth-child(3){
+	    left: 20px;
+	    top: 2px;
+	    transform: rotate(-45deg);
+	    animation-name: rbottomUp;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span.active:nth-child(2){
+	    left: 11px;
+	    top: 17px;
+	    transform: rotate(-45deg);
+	    animation-name: lTopDown;
+	    animation-duration: 0.5s;
+	}
+	.navBurger span.active:nth-child(3){
+	    left: 21px;
+	    top: 17px;
+	    transform: rotate(45deg);
+	    animation-name: rTopDown;
+	    animation-duration: 0.5s;
 	}*/
 
 /*========================= Profile -- USE JS-0 =========================*/
