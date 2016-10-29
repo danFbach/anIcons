@@ -274,6 +274,93 @@
 		transform: rotate(-45deg);
 	}*/
 
+/*========================= Three patty Smash + Spin -- USE JS-0 =========================*/
+
+	/*@keyframes topBar0{
+		0%		{ top:13px; transform: rotate(45deg); }
+		50%		{ top:13px; transform: rotate( 0deg); }
+		100%	{ top: 5px; transform: rotate( 0deg); }
+	}
+	@keyframes topBar1{
+		0%		{ top: 5px; transform: rotate( 0deg); }
+		50%		{ top:13px; transform: rotate( 0deg); }
+		100%	{ top:13px; transform: rotate(45deg); }
+	}
+	@keyframes midBar0{
+		0%		{ opacity: 0; }
+		50%		{ opacity: 0; }
+		100%	{ opacity: 1; }
+	}
+	@keyframes midBar1{
+		0%		{ opacity: 1; }
+		50%		{ opacity: 1; }
+		100%	{ opacity: 0; }
+	}
+	@keyframes bottomBar0{
+		0%		{ top:13px; transform: rotate(135deg); }
+		50%		{ top:13px; transform: rotate( 0deg); }
+		100%	{ top:21px; transform: rotate( 0deg); }		
+	}
+	@keyframes bottomBar1{
+		0%		{ top:21px; transform: rotate( 0deg); }
+		50%		{ top:13px; transform: rotate( 0deg); }
+		100%	{ top:13px; transform: rotate(135deg); }		
+	}
+	.navBurger{
+		width: 35px;
+		height: 29px;
+		border: #666 solid 2px;
+		background: none;
+		position: relative;
+		margin:25px auto;
+	}
+	.navBurger span {
+		height: 3px;
+		width: 29px;
+		top: 22px;
+		position: absolute;
+		margin: 0 3px;
+		background: #666;
+		border: none;
+		left: 0px;
+	}
+	.navBurger span:nth-child(1){
+		top: 5px;
+		transform: rotate(0deg);
+		animation-name: topBar0;
+		animation-duration: 0.8s;
+	}
+	.navBurger span:nth-child(2){
+		top: 13px;
+		animation-name: midBar0;
+		animation-duration: 0.4s;
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+	.navBurger span:nth-child(3){
+		top: 21px;
+		transform: rotate(0deg);
+		animation-name: bottomBar0;
+		animation-duration: 0.8s;
+	}
+	.navBurger span.active:nth-child(1){
+		top:13px;
+		transform: rotate(45deg);
+		animation-name: topBar1;
+		animation-duration: 0.8s;
+	}
+	.navBurger span.active:nth-child(2){
+		animation-name: midBar1;
+		animation-duration: 0.4s;
+		opacity: 0;
+	}
+	.navBurger span.active:nth-child(3){
+		top:13px;
+		transform: rotate(135deg);
+		animation-name: bottomBar1;
+		animation-duration: 0.8s;
+	}*/
+
 /*========================= Arrow up to Arrow down, simple spin -- USE JS-1 =========================*/
 	/*@keyframes arrowSpin0{
 		0%{ transform: rotate(0deg); }
