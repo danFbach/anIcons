@@ -112,14 +112,12 @@
 	.navBurger span {
 		position: absolute;
 	}
-	.navBurger span.active{
-		border-color: #FFF;
-	}
 	.navBurger span:nth-child(1){
 	    background: #666 none repeat scroll 0 0;
-	    height: 5px;
+	    height: 3px;
 	    left: 16px;
 	    top: 21px;
+		border: 2px solid #666;
 	    transform: rotate(45deg);
 	    transition: all 0.4s ease-in-out 0.2s;
 	    width: 15px;
@@ -138,10 +136,11 @@
 		}
 	.navBurger span:nth-child(3){
 		visibility: hidden;
-		height: 5px;
+		height: 3px;
 		width: 25px;
 		top: 15px;
 		left: 2px;
+		border: 2px solid #666;
 		background: #FFF;
 		transform: rotate(45deg);
 		transition: all 0.2s ease-in-out;
@@ -150,10 +149,11 @@
 		transition: all 0.4s ease-in-out;
 		height:5px;
 		width:25px;
-		top:15px;
-		left: 5px;
+		top:14px;
+		left: 4px;
 		border-radius:0;
 		background: #FFF;
+		border: 1px solid #FFF;
 	}
 	.navBurger span.active:nth-child(2){
 		border-radius: 0;
@@ -166,19 +166,20 @@
 		background: #666;
 	}
 	.navBurger span.active:nth-child(3){
-		transition: all 0.4s ease-in-out 0.4s;
+		transition: all 0.2s ease-in-out 0.4s;
 	    display: block;
 		height:5px;
 		width:25px;
-		top:15px;
-		left: 5px;
+		top:14px;
+		left: 4px;
 		border-radius:0;
 		background: #FFF;
+		border: 1px solid #FFF;
     	transform: rotate(135deg);
     	visibility: visible;
 	}*/
 
-/*========================= Three patty bounce to X -- USE JS-1 =========================*/
+/*========================= Three patty bounce to X -- USE JS-0 =========================*/
 
 	/*@keyframes firstPattyDown{
 
@@ -273,7 +274,7 @@
 		transform: rotate(-45deg);
 	}*/
 
-/*========================= Arrow up to Arrow down, simple spin -- USE JS-2 =========================*/
+/*========================= Arrow up to Arrow down, simple spin -- USE JS-1 =========================*/
 	/*@keyframes arrowSpin0{
 		0%{ transform: rotate(0deg); }
 		100%{ transform: rotate(180deg); }
@@ -326,7 +327,7 @@
 	    width: 4px;	
 	}*/
 
-/*========================= Profile -- USE JS-1 =========================*/
+/*========================= Profile -- USE JS-0 =========================*/
 
 	/*@keyframes topCircle0{
 		0%		{ top: 15px; left: 12.5px; transform: rotate(0deg); border-radius: 50%; height: 10px; width: 10px; }
