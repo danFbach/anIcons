@@ -1,6 +1,6 @@
 # animatedBurgers
 
-This is an animated icon pack I'm working on. Using css3 and 3 lines of jQuery, which I assume are avoidable but I'm not sure how yet.
+<b>This is an animated icon pack I'm working on. Using css3 and 3 lines of jQuery, which I assume are avoidable but I'm not sure how yet.</b>
   - icons include:
     - navBurger (three line menu button).
     - search (magnifying glass).
